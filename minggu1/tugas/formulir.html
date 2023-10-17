@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata</title>
+  </head>
+  <body>
+    <style>
+      *,
+      html,
+      body {
+        margin: 0%;
+        padding: 0%;
+      }
+
+      .wrapper {
+        width: 360px;
+        height: 360px;
+        background: white;
+        color: black;
+        border: 2px solid grey;
+      }
+    </style>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Formulir Biodata</h1>
+        <br />
+        <table>
+          <form action="">
+            <tr>
+              <td><label for="nama">Nama</label></td>
+              <td>: <input type="text" id="nama" /></td>
+            </tr>
+            <tr>
+              <td><label for="nim">NIM</label></td>
+              <td>: <input type="text" id="nim" /></td>
+            </tr>
+            <tr>
+              <td><label for="jurusan">Jurusan</label></td>
+              <td>: <input type="text" id="jurusan" /></td>
+            </tr>
+            <tr>
+              <td><label for="fakultas">Fakultas</label></td>
+              <td>
+                :
+                <select id="fakultas">
+                  <option>Fakultas Ilmu Komputer</option>
+                  <option>Fakultas Ekonomi & Bisnis</option>
+                  <option>Fakultas Ilmu Budaya</option>
+                  <option>Fakultas Kesehatan</option>
+                  <option>Fakultas Teknik</option>
+                  <option>Fakultas Kedokteran</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="angkatan">Angkatan</label></td>
+              <td>: <input type="text" id="text" /></td>
+            </tr>
+            <tr>
+              <td><label for="jk">Jenis Kelamin</label></td>
+              <td>
+                :
+                <input type="radio" name="gender" id="pria" />
+                <label for="pria">Pria</label>
+                <input type="radio" name="gender" id="wanita" />
+                <label for="wanita">Wanita</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td>: <input type="email" id="email" /></td>
+            </tr>
+            <tr>
+              <td>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button><a href="biodata.html" class="color: black">Biodata</a></button>
+              </td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

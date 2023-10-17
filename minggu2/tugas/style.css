@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap');
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+.fContainer {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 60px;
+  background-color: #000000;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.firstname {
+  color: white;
+  font-weight: 700;
+}
+
+.lastname {
+  color: greenyellow;
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation > li > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation > li > a:hover {
+  color: greenyellow;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Bagan */
+.header {
+  text-align: left;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.header h1 {
+  color: #000000;
+  text-align: left;
+  font-size: 50px;
+}
+
+.header p {
+  color: #000000;
+  text-align: left;
+  font-size: 20px;
+}
+
+.header span {
+  color: rgb(145, 211, 47);
+}
+
+.content-header {
+  position: absolute;
+  text-align: left;
+  top: 54%;
+  left: 15%;
+}
+
+.content-header p {
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+}
+
+.more-btn {
+  width: 170px;
+  height: 40px;
+  border: none;
+  color: beige;
+  cursor: pointer;
+  background-color: rgb(145, 211, 47);
+}
+
+.more-btn:hover {
+  background-color: rgb(117, 165, 45);
+}
+
+.col-img {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  width: 40%;
+}
+
+.col-img img {
+  width: 500px;
+}
